@@ -12,6 +12,8 @@ eval "$(rbenv init -)"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" #RVM
 
+alias localip='ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d " " -f2'
+
 alias touch-templates="find ~/Sites/telenet/telenet_dawn/src/templates/dusts |xargs touch"
 alias dawn2-templates="find ~/Sites/telenet/dawn2/src/templates/dusts |xargs touch"
 
@@ -19,7 +21,7 @@ alias stb-ssh="ssh -f root@172.24.20.78 -L 8081:172.24.20.78:8081 -N"
 
 alias g="git"
 alias gs="git stash"
-alias gsp="git stash pop"
 alias gc="git commit -m"
 alias ga="git add"
 alias gst="git status"
+alias gfap="git fetch --all --prune"
