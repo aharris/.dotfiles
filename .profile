@@ -25,3 +25,5 @@ alias gc="git commit -m"
 alias ga="git add"
 alias gst="git status"
 alias gfap="git fetch --all --prune"
+
+alias cw="compass watch"
