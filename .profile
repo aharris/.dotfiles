@@ -10,6 +10,8 @@ source ~/.dotfiles/git-completion.bash
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" #RVM
+
 alias localip='ifconfig | grep "inet " | grep -v 127.0.0.1 | cut -d " " -f2'
 
 alias touch-templates="find ~/Sites/telenet/telenet_dawn/src/templates/dusts |xargs touch"
