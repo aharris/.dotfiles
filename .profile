@@ -19,7 +19,10 @@ alias stb-ssh="ssh -f root@172.24.20.78 -L 8081:172.24.20.78:8081 -N"
 
 alias g="git"
 alias gs="git stash"
-alias gc="git commit -m"
+alias gcm="git commit -m"
 alias ga="git add"
 alias gst="git status"
 alias gfap="git fetch --all --prune"
+alias gco="git checkout"
+
+alias mergeDev="git checkout develop && git pull && git checkout - && git merge develop"
