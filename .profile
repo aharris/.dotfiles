@@ -28,4 +28,4 @@ alias gst="git status"
 alias gfap="git fetch --all --prune"
 alias gco="git checkout"
 
-alias mergeDev="git checkout develop && git pull && git checkout - && git merge develop"
+alias cw="compass watch"
