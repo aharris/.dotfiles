@@ -4,6 +4,7 @@ export HISTSIZE=10000
 export PATH=bin:/usr/local/bin:/usr/local/sbin:$PATH
 export PATH="~/node_modules/.bin:$PATH"
 export PATH=$PATH:/usr/local/git/bin
+export PATH="/usr/local/share/npm/bin:$PATH"
 
 [[ $- == *i* ]]   &&   . ~/.dotfiles/git-prompt.sh
 source ~/.dotfiles/git-completion.bash
