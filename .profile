@@ -8,8 +8,8 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 
 [[ $- == *i* ]]   &&   . ~/.dotfiles/git-prompt.sh
 source ~/.dotfiles/git-completion.bash
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" #RVM
 
