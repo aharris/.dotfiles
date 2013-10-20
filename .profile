@@ -3,7 +3,7 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 export PATH="bin:/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH="~/node_modules/.bin:$PATH"
-export PATH="$PATH:/usr/local/git/bin:/usr/local/share/npm/bin/"
+export PATH="$PATH:/usr/local/git/bin:/usr/local/share/npm/bin"
 export PATH="/usr/local/share/npm/bin:$PATH"
 
 [[ $- == *i* ]]   &&   . ~/.dotfiles/git-prompt.sh
@@ -36,6 +36,4 @@ alias grunt-dawn="grunt pipe & grunt develop & grunt watch:dust & grunt watch:te
 alias grunt-s="grunt connect & grunt pipe"
 alias pfft="grunt"
 
-function dumbby() {
-   say -v 'pipe organ' "$1" is a dum dum dum dum bee Dum dum bee dum dum dum dum bee dum bee dum dum dum be dum dum dum bee dum bee dum dum bee dummmmmmmmmmmmmmmmm
-}
+alias simulator="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
